@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg5"
+    android:layout_height="match_parent"
+    tools:context=".activites.HomeScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo1"/>
+
+        <LinearLayout
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_width="wrap_content"
+                android:text="Byte And Bits"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="website and app devloping "
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/BtnAbout"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/_10ssp"
+                android:background="@color/blue_900"
+                android:text="About us" />
+
+            <Button
+                android:id="@+id/BtnServise"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="match_parent"
+                android:background="@color/blue_A200"
+                android:layout_weight="1"
+                android:textSize="@dimen/_10ssp"
+                android:text="Servise" />
+
+            <Button
+                android:id="@+id/BtnProducts"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="match_parent"
+                android:background="@color/blue_900"
+                android:textSize="@dimen/_10ssp"
+                android:layout_weight="1"
+                android:text="Products" />
+
+            <Button
+                android:id="@+id/BtnTrainning"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="match_parent"
+                android:background="@color/blue_A200"
+                android:textSize="@dimen/_10ssp"
+                android:layout_weight="1"
+                android:text="Training/Internship" />
+
+            <Button
+                android:id="@+id/BtnContact"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:background="@color/blue_900"
+                android:textSize="@dimen/_10ssp"
+                android:layout_weight="1"
+                android:text="Contact Us" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backg2"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_height="@dimen/_230sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who are we?"
+            android:textSize="@dimen/_20ssp"
+            android:layout_marginLeft="@dimen/_90sdp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:text="We are a close team of creative professionals based out of Bhavnagar, Gujarat. We are passionate about partnering with good people and organizations to provide exceptional custom web solutions. We approach each project and design challenge with process-driven intentionality to inform the identities and experiences we create. We endeavor toward work that drives action, and generates results. Are you looking to have greater impact? We’d love to help."
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OFFERING SOLUTIONS"
+                 android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textSize="@dimen/_20ssp"
+                android:gravity="center"
+                />
+
+            <View
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+           <android.support.v7.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="@dimen/_10sdp"
+               android:layout_marginLeft="@dimen/_10sdp">
+
+               <LinearLayout
+                   android:layout_width="@dimen/_140sdp"
+                   android:orientation="vertical"
+                   android:layout_height="wrap_content">
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="@dimen/_40sdp"
+                       android:src="@drawable/photo2"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+                   android:textSize="@dimen/_14ssp"
+                   android:textColor="@color/blue_900"
+                   android:text="stunning Desiging"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="center"
+                   android:textSize="@dimen/_10ssp"
+                   android:layout_marginRight="@dimen/_5sdp"
+                   android:textColor="@color/black2"
+                   android:text="sDesigning is not just about style, it's about finding the best way to communicate your message."/>
+
+               </LinearLayout>
+
+           </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/_140sdp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_36sdp"
+                            android:src="@drawable/doct"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="@dimen/_14ssp"
+                            android:textColor="@color/blue_900"
+                            android:text="Development"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:layout_marginLeft="@dimen/_4sdp"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="@color/black2"
+                            android:text="The world of technology is dynamic in nature. We develop sustainable technological solutions"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/_140sdp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:src="@drawable/clod"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="@dimen/_14ssp"
+                            android:textColor="@color/blue_900"
+                            android:text="Digital Marketing"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="@color/black2"
+                            android:text="Digital Marketing is no longer a choice. To survive in the online world, one must work to attract targeted traffic that deliver results."/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/_140sdp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_36sdp"
+                            android:src="@drawable/doct"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="@dimen/_14ssp"
+                            android:textColor="@color/blue_900"
+                            android:text="Simple Accounting Solutions"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_marginLeft="@dimen/_4sdp"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="@color/black2"
+                            android:text="Basic Accounting is a need for every small business, we understand the needs of small businesses and help them maintain their accounts at fingertips."/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_140sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/_140sdp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:src="@drawable/clod"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="@dimen/_14ssp"
+                            android:textColor="@color/blue_900"
+                            android:text="Outsourcing"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="@color/black2"
+                            android:text="We are your partner in growth and are always ready to craft a strategy that is in line with your needs and focused on your goals."/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/_140sdp"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_36sdp"
+                            android:src="@drawable/doct"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="@dimen/_14ssp"
+                            android:textColor="@color/blue_900"
+                            android:text="5 star support"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_marginLeft="@dimen/_4sdp"
+                            android:textSize="@dimen/_10ssp"
+                            android:textColor="@color/black2"
+                            android:text="We provide support services that better meet with the customer's convenience. After sales service is a crucial aspect of sales management and must not be ignored."/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_70sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="© Copyright 2014-2019 ByteAndBits"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All Right Reserved"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+
+</LinearLayout>
